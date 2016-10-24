@@ -1,0 +1,79 @@
+.quote_box{
+	width: 500px;
+	height: auto;
+	position: relative;
+	margin:0 auto;
+	margin-top: 100px;
+	padding-top: 10px;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+}
+
+.quote_content{
+	position: relative;
+	width: 350px;
+	height: auto;
+	margin-top: 70px;
+	margin-left: 40px;
+	font-size: 30px;
+	font-family: "microsoft Yahei";
+	
+}
+.quote_author{
+	height: 40px;
+	border-radius: 6px;
+	margin-left: 250px;
+	text-align: center;
+	font-size: 30px;
+	font-family: "microsoft Yahei";
+	
+}
+div.buttons{
+	height: 60px;
+	margin-top: 20px;
+}
+.new_quote{
+	width: 100px;
+	height: 30px;
+	float: right;
+	margin-right: 30px;
+	border-radius: 6px;
+	cursor: pointer;
+	padding-left: 10px;
+	padding-top: 4px;
+	color: #FFFFFF;
+	
+
+}
+.btn{
+	width: 40px;
+	height: 40px;
+	float: left;
+	border-radius: 6px;
+	margin-left: 26px;
+	color: #FFFFFF;
+}
+.tumblr_btn{
+	padding-left: 6px;
+}
+.twitter_btn{
+	margin-left: 30px;
+}
+i{
+	padding-top: 10px;
+	padding-left: 10px;
+	width: 30px;
+}
+span{
+	font-size: 20px;
+}
+.by{
+	width: 400px;
+	height: 30px;
+	
+	margin:0 auto;
+}
+.by span{
+	padding-left: 150px;
+	color: #FFFFFF;
+}

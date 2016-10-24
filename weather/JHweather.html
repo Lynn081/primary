@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>看看看看天气预报</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="JHweather.css"/>
+</head>
+<body>
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+<script src="JHweather.js"></script>
+<div class="content">
+<h1><img src="http://7xtsii.com1.z0.glb.clouddn.com/vector70253100607192.jpg"><strong>天气预报</strong></h1>
+<div class="search">
+	<input  id="city_text" type="text" name="城市查询" placeholder="输入城市名称"/>
+	<input  id="search" type="submit" name="查询天气" />
+</div>
+<div class="today">
+	<h2 id="city_name"></h2>
+	<h2>今日:<span id="today_weather"></span></h2>
+	<ul id="today">
+		<li >湿度：<span id="humidity"></span></li>
+		<li >穿衣指数：<span id="dress"></span></li>
+		<li >洗车指数：<span id="wash_car"></span></li>
+		<li >旅行指数：<span id="travel"></span></li>
+		<li >锻炼指数：<span id="exercise"></span></li>
+		<li >紫外线指数：<span id="uv"></span></li>
+	</ul>
+</div>
+<div class="xian"></div>
+<h2 class="font">未来6天天气</h2>
+<div id="futrue_weather">	
+	<div id="day0"></div>
+	<div id="day1"></div>
+	<div id="day2"></div>
+	<div id="day3"></div>
+	<div id="day4"></div>
+	<div id="day5"></div>
+</div>
+</div>
+
+</body>
+</html>
