@@ -4342,6 +4342,7 @@ var data = [
 		selCity = document.getElementById("city"),
 		selCounty = document.getElementById("county");
 	var proId,cityId;
+	var provinceIndex=0,cityIndex=1,countyIndex=2;
 	
 
 	
